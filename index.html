@@ -160,7 +160,7 @@ https://www.tooplate.com/view/2115-marvel
                                 </div>
                         </h1>                        
                         <div class="custom-btn-group mt-4">
-                          <a href="#" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download CV</a>
+                          <a href="#" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt' id="cv_icon"></i> Download CV</a>
                           <a href="#about" class="btn custom-btn custom-btn-bg custom-btn-link">About Me</a>
                         </div>
                     </div>
@@ -187,10 +187,10 @@ https://www.tooplate.com/view/2115-marvel
               <div class="ms-md-2 ms-lg-5">
                 <h2 class="display-5 fw-bold"><span style="color: #17d7e7;">Know</span> Who I Am</h2>
                 <p class="lead ">
-                  I'm Aymane Moutousse, a passionate Web Developer and Mobile App Developer from with a strong preference for backend development. With extensive experience in Laravel, React.js, and React Native, I specialize in creating web and mobile applications that are both user-friendly and performant.
+                  I'm Aymane Moutousse, a passionate Web Developer and Mobile App Developer from with a strong preference for back-end development. With extensive experience in Laravel, React.js, and React Native, I specialize in creating web and mobile applications that are both user-friendly and performant.
                 </p>
                 <p class="lead mb-0">
-                  I take pride in turning client ideas into fully functional and efficient products, with a focus on building robust backend systems that ensure smooth performance and scalability.
+                  I take pride in turning client ideas into fully functional and efficient products, with a focus on building robust back-end systems that ensure smooth performance and scalability.
                 </p>
                 <p class="lead mt-3">
                   Outside of programming, I enjoy playing video games, watching football, and driving. These activities keep me refreshed and inspired, giving me the energy to tackle new coding challenges every day.
@@ -240,7 +240,7 @@ https://www.tooplate.com/view/2115-marvel
                   <div class="card h-100 service-card text-center p-3">
                       <img src="./images/backend_dev.png" class="card-img-top mx-auto my-3" alt="Backend Development Icon" style="width: 60px;">
                       <div class="card-body">
-                          <h5 class="card-title">Backend Development</h5>
+                          <h5 class="card-title">Back-end Development</h5>
                           <p class="card-text">
                             Building robust back-end systems with PHP, Laravel, and NodeJS. I focus on secure, scalable database management and efficient server-side logic to support your application’s performance and data integrity.
                           </p>
@@ -647,25 +647,27 @@ https://www.tooplate.com/view/2115-marvel
             <div class="contact-form">
               <h2 class="mb-4">Interested to work together? Let's talk</h2>
 
-              <form action="https://formspree.io/f/mrbznvlw" method="POST">
+              <form id="contactForm">
                 <div class="row">
                   <div class="col-lg-6 col-12">
                     <input type="text" class="form-control" name="name" placeholder="Your Name" id="name" required>
                   </div>
-
+              
                   <div class="col-lg-6 col-12">
                     <input type="email" class="form-control" name="email" placeholder="Email" id="email" required>
                   </div>
-
+              
                   <div class="col-12">
                     <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message" required></textarea>
                   </div>
-
+              
                   <div class="ml-lg-auto col-lg-5 col-12">
-                    <input type="submit" class="form-control submit-btn" value="Send Button">
+                    <button type="submit" id="submitBtn" class="form-control submit-btn"  disabled="true">Send</button>
                   </div>
                 </div>
               </form>
+              
+              
             </div>
           </div>
 
@@ -680,8 +682,8 @@ https://www.tooplate.com/view/2115-marvel
                <div class="row">
 
                     <div class="col-lg-12 col-12">                                
-                        <p class="copyright-text text-center">Copyright &copy; 2019 Company Name . All rights reserved</p>
-                        <p class="copyright-text text-center">Designed by <a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a></p>
+                        <!-- <p class="copyright-text text-center">Copyright &copy; 2024 Aymane. </p> -->
+                        <p class="copyright-text text-center">Designed and Developed by <a rel="linkedin" href="https://www.linkedin.com/in/aymanemts">Aymane Moutousse</a></p>
                     </div>
                     
                </div>
@@ -706,5 +708,6 @@ https://www.tooplate.com/view/2115-marvel
       })
 
      </script>
+
   </body>
 

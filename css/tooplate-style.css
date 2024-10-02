@@ -1328,4 +1328,8 @@ b, strong {
   }
 }
 
+.dark-mode #cv_icon{
+  color: #000000;
+}
+
 >>>>>>> f4237c2354eeab0fae93195586b8090d9c02920c
